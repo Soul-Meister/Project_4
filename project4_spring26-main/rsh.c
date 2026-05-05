@@ -9,7 +9,7 @@
 
 #define N 13
 
-extern char **environ;
+extern char **environ;;
 char uName[20];
 
 char *allowed[N] = {"cp","touch","mkdir","ls","pwd","cat","grep","chmod","diff","cd","exit","help","sendmsg"};
